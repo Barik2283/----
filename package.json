@@ -1,0 +1,17 @@
+{
+  "name": "mtg-mods-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for MTG MODS script orders",
+  "main": "simple-bot.js",
+  "scripts": {
+    "start": "node simple-bot.js",
+    "start:server": "node bot-server.js",
+    "dev": "nodemon simple-bot.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "Антон Чигур",
+  "license": "MIT"
+}
